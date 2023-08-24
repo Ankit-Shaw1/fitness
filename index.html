@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLUB</title>
+    <style>
+        h1 {
+            margin-left: 30px;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(pexels-cliff-booth-4058411.jpg);
+            background-size: 2000px;
+
+
+        }
+
+        .logo {
+            color: black;
+            border: 2px solid red;
+            display: inline-block;
+            position: absolute;
+            left: 30px;
+            top: 70px;
+        }
+
+        .logo img {
+            height: 85px;
+            width: 95px;
+        }
+
+        .logo div {
+            background-color: white;
+            font-family: cursive;
+        }
+
+        .nav-bar {
+            /* middle mai krne ke liye follow three things-- display= block,width=30%,margin  */
+            display: block;
+            width: 30%;
+            margin: -17px auto;
+            border: 2px solid green;
+
+
+        }
+
+        .right {
+            position: absolute;
+            right: 30px;
+            top: 70px;
+            display: inline-block;
+            border: 2px solid yellow;
+
+
+        }
+
+        .nav-bar li {
+
+            display: inline-block;
+            font-size: 20px;
+
+        }
+
+        .nav-bar li a {
+            color: black;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+
+        .nav-bar li a:hover {
+            text-decoration: underline;
+            color: burlywood;
+        }
+
+        .button {
+            margin: 5px;
+            padding: 1px;
+            background-color: burlywood;
+            border: 2px solid red;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .content {
+            position: absolute;
+            width: 400px;
+            margin: 23px 12px;
+            padding: 20px 17px;
+            top: 150px;
+        }
+
+        .content h4 {
+
+            border: 2px solid brown;
+            background-color: wheat;
+        }
+
+        .content h3 {
+            border: 2px solid brown;
+            background-color: wheat;
+            display: inline;
+        }
+
+        .details {
+            position: absolute;
+            margin: 29px;
+            padding: 17px 27px;
+            top: 450px;
+            background-color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>FITNESS MANAGEMENT CLUB</h1>
+        <div class="logo">
+            <img src="https://cdn3.vectorstock.com/i/1000x1000/69/02/gym-and-fitness-logo-template-retro-style-emblem-vector-24546902.jpg" alt="">
+            <div> MY FITNESS </div>
+
+        </div>
+
+        <div class="nav-bar">
+            <ul class="mid">
+                <li class="active"> <a href="#"> Home </a></li>
+                <li> <a href="#"> About Us</a></li>
+                <li> <a href="#"> Contact Us</a> </li>
+
+            </ul>
+
+        </div>
+
+        <div class="right">
+            <buttons class="button">Email Us</buttons>
+            <buttons class="button">Form </buttons>
+        </div>
+    </header>
+
+    <div class="content">
+        <h2>HELLO!! EVERYONE</h2>
+
+        <h4> Being healthy is the first thing to be kept in mind because most of the time our attitude depends on how we
+            feel. Being healthy gives us the energy to work and do things. It is hard to get admission in health club
+            when slots are full. This health club management system will help to overcome such problems by booking the
+            desired slot online.</h4>
+        <h3>First 10 people will get 50% discount so hurry up</h3>
+    </div>
+
+    <div class="details">
+        <form name="basic-form" action=""></form>
+        <h2>DETAILS</h2>
+        <div>
+            <label for="Name"> Name </label>
+            <input type="text" id="Name">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Age"> Age</label>
+            <input type="text" id="Age">
+        </div>
+        <br>
+        <div>
+            <label for="Email"> Email</label>
+            <input type="text" id="Email">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="MY GENDER"> Female <input type="radio" name="MY GENDER">
+        </div>
+        <br>
+
+        <div>
+            <label for="Are you eligible"> Are you eligible</label>
+            <input type="checkbox" id="Are you eligible">
+        </div>
+        <br>
+
+        <div>
+            <label for="Duration"> Duration</label>
+            <select name="Duration" id="Duration">
+
+                <option value="6 months"> 6 months </option>
+                <option value="1 year">1 year</option>
+                <option value="2 year">2 year</option>
+            </select>
+        </div>
+        <br>
+
+        <label for="About Yourself"> About Yourself</label><br>
+        <textarea id="About Yourself" cols="30" rows="10"></textarea>
+        <br>
+        <div>
+
+            <input class="button" type="submit" value="Submit Now">
+            <input class="button" type="Reset" value="Reset">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
